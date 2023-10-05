@@ -1,0 +1,23 @@
+{
+  "name": "solid-umbrella",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/autosoftx/solid-umbrella.git"
+  },
+  "author": "autosoftx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/autosoftx/solid-umbrella/issues"
+  },
+  "homepage": "https://github.com/autosoftx/solid-umbrella#readme",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "nodemon": "^3.0.1"
+  }
+}
