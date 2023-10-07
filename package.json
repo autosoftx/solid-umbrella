@@ -2,9 +2,11 @@
   "name": "solid-umbrella",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "dist/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx watch src/app.ts",
+    "build": "tsc",
+    "start": "node ."
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,10 @@
   "homepage": "https://github.com/autosoftx/solid-umbrella#readme",
   "dependencies": {
     "discord.js": "^14.13.0",
-    "nodemon": "^3.0.1"
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.3",
+    "tsx": "^3.13.0"
   }
 }
